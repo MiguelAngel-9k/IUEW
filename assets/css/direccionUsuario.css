@@ -18,3 +18,18 @@ div.col > h4 {
   font-weight: 8px;
   border-bottom: 3px #09b2c9 solid;
 }
+
+form.direccion-usuario{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+input{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+select{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}

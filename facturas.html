@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+<html>
+<head>
+	<meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -15,7 +15,7 @@
     ></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/direccionUsuario.css" />
+    <link rel="stylesheet" href="assets/css/facturas.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
       rel="stylesheet"
@@ -31,11 +31,11 @@
       href="assets/iconos/usuario-de-perfil.png"
       type="image/x-icon"
     />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row shadow p-3 bg-white rounded" id="primerNav">
+	<title>| Facturas</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row shadow p-3 bg-white rounded" id="primerNav">
         <div class="col-lg-8">
           <ul class="nav float-left">
             <li class="nav-iem">
@@ -173,37 +173,42 @@
         </div>
       </div>
       <div class="row">
-        <div class="col">
-          <h4>Direccion de envio</h4>
-        </div>
+      	<div class="col">
+      		<h4>Facturas</h4>
+      	</div>
       </div>
-      <div class="row border-danger">
-        <div class="col mx-lg-5">
-          <form action="" name="direccionUsuario" id="direccionUsuario" method="POST">
-            <label for="direccion">Direccion</label>
-            <input
-              class="form-control"
-              name="direccion"
-              type="text"
-              placeholder="av.ejemplo #123"
-            />
-            <label for="postal">Codigo Postal</label>
-            <input class="form-control" name="postal" type="number" placeholder="#333666" />
-            <label for="ciudad">Ciudad</label>
-            <input class="form-control" name="ciudad" type="text" />
-            <label for="estado">Estado</label>
-            <select name="estado" id="estado" class="form-control">
-              <option value="0">Nuevo León</option>
-            </select>
-            <label for="telefono">Telefono</label>
-            <input class="form-control" name="telefono" type="number" placeholder="555-555-555" />
-            <input type="submit" value="Guardar" class="btn btn-info mt-lg-5" />
-             <input type="submit" value="Regresar" class="btn btn-info mt-lg-5" />
-          </form>
-        </div>
+      <div class="row">
+      	<div class="col">
+      		<table class="table">
+      			<thead class="thead-info">
+      				<tr>
+      					<th scope="col">No Factura</th>
+      					<th scope="col">Nombre</th>
+      					<th scope="col">Cantidad a pagar</th>
+      					<th scope="col">Fecha de factura</th>
+      				</tr>      				
+      			</thead>
+      			<tbody>
+      				<tr>
+      					<td id="noRegistro">243525454</td>
+      					<td>Juan Joe</td>
+      					<td id="cantidadPagar">2,550.00</td>
+      					<td>10/12/2019</td>
+
+      				</tr>
+      			</tbody>
+      		</table>
+      	</div>
       </div>
-    </div>
-    <footer class="page-footer pt-4">
+      <div class="row mt-lg-5">
+      	<div class="col">
+      		<button class="btn btn-info">
+      			Regresar
+      		</button>
+      	</div>
+      </div>
+	</div>
+	 <footer class="page-footer pt-4">
       <div class="container">
         <div class="row">
           <div class="col-md-6 mb-4">
@@ -214,14 +219,12 @@
           <div class="col-md-5 mb-4">
             <form class="form-inline" action="" method="POST">
               <input
-                type="text"
+                type="email"
                 name="buscarFooter"
                 id=""
                 class="form-control"
-                placeholder="Buscar"
-                aria-label="Search"
+                placeholder="ejemplo@ejemplo.com"
               />
-              <i class="fas fa-search" aria-hidden="true"></i>
               <input
                 type="submit"
                 value="Suscribirse"
@@ -287,21 +290,6 @@
           </div>
         </div>
       </div>
-    </footer>
-        <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </footer>	
+</body>
 </html>
