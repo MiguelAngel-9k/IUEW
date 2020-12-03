@@ -1,6 +1,39 @@
-ul.navbar-nav>li{
-  padding: 0px;
-    margin-left: 40px;
-    margin-right: 40px;
-    font-family: sans-serif;    
+
+
+.nav-link{
+  color: #09b2c9;
+}
+
+.nav-link:hover{
+  color: black;
+  font-size: 18px;
+}
+
+.dropdown-divider{
+  border-top: 1px solid #09b2c9;
+}
+
+.dropdown-menu{
+  border-radius: 35px;
+}
+
+.offers{
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: oswald, sans-serif;
+  letter-spacing: 3px;
+  border-bottom: 2px solid green;
+}
+
+.btn.btn-info.btn-comprar{
+  background-color: #09b2c9;
+
+}
+
+.btn.btn-info.btn-comprar:hover{
+  background-color: rgb(5, 184, 5);  
+}
+
+.card{
+  margin: 15px;
 }

@@ -1,0 +1,30 @@
+
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: 'Saira Condensed', sans-serif;    
+}
+
+.registrarse{
+    padding: 30px;
+    border-left: 3px #09b2c9 solid;
+}
+
+button.btn{
+    background-color: #09b2c9;
+    color: white;
+    font-weight: 2px;
+}
+
+#iniciarSesion>button.btn{
+    margin-top: 13px;
+}
+
+.iniciar-sesion{
+    margin-top: 45px;
+    padding: 30px;
+    border-left: 3px #09b2c9 solid;    
+}

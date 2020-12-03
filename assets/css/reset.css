@@ -1,0 +1,28 @@
+body{
+    /* background-color:  #e6e6e6; */
+    margin-top: 0px;
+    padding-top: 0px;
+    padding: 40px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.nav-link{
+    color: #09b2c9;
+  }
+  
+  .nav-link:hover{
+    color: black;
+    font-size: 18px;
+  }
+  
+  .dropdown-divider{
+    border-top: 1px solid #09b2c9;
+  }
+  
+  .dropdown-menu{
+    border-radius: 35px;
+  }
+
+  footer{
+    margin-top: 150px;
+  }

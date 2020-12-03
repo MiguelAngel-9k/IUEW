@@ -1,0 +1,30 @@
+div.col.float-right {
+  display: flex;
+  margin: 0px;
+}
+
+div.col.float-right > img.avatar {
+  max-height: 80px;
+  max-width: 80px;
+  border-radius: 50px;
+}
+
+div.col > h4 {  
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 8px;  
+    border-bottom: 3px #09b2c9 solid;  
+  }
+
+  form.info-personal{
+      padding-left: 35px;
+      padding-right: 35px;
+  }
+
+  input{
+      margin-top: 10px;
+      margin-bottom: 15px;
+  }
