@@ -336,7 +336,7 @@ div.product-card{
 }
 
 div.product-card-discount{
-  width: 50%;
+  /*width: 50%;*/
   height: 65px;
   background-color: #d5ee54;
   text-align: center;
@@ -352,7 +352,7 @@ div.product-card-discount>p{
   color: #474747;
 }
 div.product-card-end{
-  width: 50%;
+  /*width: 50%;*/
   height: 65px;
   background-color: #60d2d6;
   text-align: center;
@@ -366,11 +366,19 @@ div.product-card-end>p{
   color: #ffffff;
 }
 
-div.porduct-img{
-  background-color: greenyellow;
-  z-index: 1;
+/*Card image*/
+ 
+div.col-lg-2.product-img{
+  margin: 0px;
 }
 
-div.product-img>img{
- background-color: yellow;
+div.col-lg-2.product-img>img{
+  background-color: grey;
+  max-height: 30px;
+  max-width: 30px;
+  
 }
+
+/*div.product-img>img{
+ background-color: yellow;
+}*/
