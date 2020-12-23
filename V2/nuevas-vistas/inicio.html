@@ -206,18 +206,22 @@
                 </div>
             </div>
         </div>
+        <!--Product card-->
         <div class="row mt-lg-5">
             <div class="col-lg-4">
                 <div class="card">
+                    <!--Product header-->
                     <div class="card-header product-header">
-                        <h5>Solo eta semana</h5>
-                         <img src="../img/iconos/las-mejores-ofertas.png" alt="Las mejores ofertas">
+                        <h5>Solo eta semana -5.3%</h5>
+                        <img src="../img/iconos/las-mejores-ofertas.png" alt="Las mejores ofertas">
                     </div>
+                    <!--Product image-->
                     <div class="card-title p-lg-5">
                         <img src="../img/referencias/ryzen3400g.jpg" alt="Procesador" class="card-img-top">
                     </div>
-                    <div class="card-body">
-                        <form action="" class="form-inline">
+                    <!--Prodcut card content-->
+                    <div class="card-body p-lg-4">
+                        <form action="" class="form-inline likes">
                             <button>
                                 <i class="far fa-heart"></i>
                                 2,566 Me gusta
@@ -226,18 +230,20 @@
                         <p>
                             Procesador AMD RYZEN 5 3400G 3.70Ghz 4 Cores Socket AM4
                         </p>
-                        <div class="prodcut-info">
-                            <form action="" class="form-group product-button">
-                                <button>
+                        <!--Product card buttons-->
+                        <div class="product-info">
+                            <form action="" class="form-group product-button buy-controls">
+                                <button class="button-cyan">
                                     Añadir <i class="fas fa-cart-plus"></i>
                                 </button><br>
-                                <button>
+                                <button class="button-green">
                                     Comprar
                                 </button>
                             </form>
+                            <!--Product card price-->
                             <div class="price">
-                                <p>$2,700</p>
-                                <p>$2,557</p>
+                                <p id="originalPrice"> <strike>$2,700</strike></p>
+                                <p id="discountPrice">$2,557</p>
                             </div>
                         </div>
                         <div class="product-card-footer">
@@ -246,17 +252,37 @@
                         </div>
                     </div>
                 </div>
-            </div><div class="col-lg-4">
+            </div>
+        </div>
+        <!--Last banner-->
+        <div class="row mt-lg-5 banner-cyan last-banner px-lg-5">
+            <div class="col-lg-10">
+                <p>Nuevo</p>
+            </div>
+            <div class="col-lg-2">
+                <img src="../img/iconos/nuevo.png" alt="Icono nuevo">
+            </div>
+            <!--<div class="col banner-cyan last-banner">
+            	<p>Nuevo</p>
+            	<img src="../img/iconos/nuevo.png" class="float-right" alt="">
+            </div>-->
+        </div>
+        <!--New prodcut card-->
+        <div class="row mt-lg-5">
+            <div class="col-lg-4">
                 <div class="card">
-                    <div class="card-header product-header">
-                        <h5>Solo eta semana</h5>
-                         <img src="../img/iconos/las-mejores-ofertas.png" alt="Las mejores ofertas">
+                    <!--Product header-->
+                    <div class="card-header product-header-green">
+                        <h5>Nuevo</h5>
+                        <img src="../img/iconos/nuevo.png" alt="Las mejores ofertas">
                     </div>
+                    <!--Product image-->
                     <div class="card-title p-lg-5">
-                        <img src="../img/referencias/motherboard.jpg" alt="Procesador" class="card-img-top">
+                        <img src="../img/referencias/ryzen3400g.jpg" alt="Procesador" class="card-img-top">
                     </div>
-                    <div class="card-body">
-                        <form action="" class="form-inline">
+                    <!--Prodcut card content-->
+                    <div class="card-body p-lg-4">
+                        <form action="" class="form-inline likes">
                             <button>
                                 <i class="far fa-heart"></i>
                                 2,566 Me gusta
@@ -265,18 +291,20 @@
                         <p>
                             Procesador AMD RYZEN 5 3400G 3.70Ghz 4 Cores Socket AM4
                         </p>
-                        <div class="prodcut-info">
-                            <form action="" class="form-group product-button">
-                                <button>
+                        <!--Product card buttons-->
+                        <div class="product-info">
+                            <form action="" class="form-group product-button buy-controls">
+                                <button class="button-cyan">
                                     Añadir <i class="fas fa-cart-plus"></i>
                                 </button><br>
-                                <button>
+                                <button class="button-green">
                                     Comprar
                                 </button>
                             </form>
+                            <!--Product card price-->
                             <div class="price">
-                                <p>$2,700</p>
-                                <p>$2,557</p>
+                                <p id="originalPrice"> <strike>$2,700</strike></p>
+                                <p id="discountPrice">$2,557</p>
                             </div>
                         </div>
                         <div class="product-card-footer">
@@ -288,6 +316,99 @@
             </div>
         </div>
     </div>
+    <!--Footer page-->
+    <footer class="banner-cyan mt-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="payment-methods">
+                        <img src="../img/referencias/paypal.png" alt="">
+                        <img src="../img/referencias/tarjeta-mastercard.png " alt="">
+                        <img src="../img/referencias/visa.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <form action="" class="float-left mt-lg-3 news-teller">
+                    	<label for="email">Suscribete a las noticias</label><br>
+                        <input name="email" placeholder="ejemplo@ejemplo.com" type="email">
+                        <input type="submit" class="banner-green" value="Suscribirse">
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-lg-3">
+                <div class="col-lg-3">
+                    <p class="footer-header">Productos <i class="fas fa-box"></i></p>
+                    <ul class="footer-list">
+                        <li>
+                            Hardware
+                        </li>
+                        <li>
+                            Computadoras Armadas
+                        </li>
+                        <li>
+                            Audio y Video
+                        </li>
+                        <li>
+                            Teclados y Ratones
+                        </li>
+                        <li>
+                            Cables
+                        </li>
+                        <li>
+                            Redes
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <p class="footer-header">Acerca de nosotros <i class="fas fa-id-card"></i></p>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="">Envío</a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Aviso legal
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Sobre nosotros
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Términos y condiciones
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Pago seguro
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Contacte con nosotros
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                	<p class="footer-header">Cuenta <i class="fas fa-user-alt"></i></p>
+                    <div class="footer-info">                      
+                        <a href="">Iniciar sesíon</a> <br>
+                        <a href="">Registrarse</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <p class="footer-header">Contacto <i class="fas fa-envelope"></i></p>
+                    <p>Monterrey Altatec
+                        México
+                        Envíenos un correo electrónico: ventas@altatecmonterrey.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

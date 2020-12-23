@@ -135,6 +135,7 @@ form.banner-button>input[type="submit"] {
 /*color cyan class*/
 .button-cyan {
     background-color: #60d2d6;
+    opacity: 78%;
     color: white;
 }
 
@@ -234,15 +235,165 @@ div.card-body.banner-new {
     text-align: center;
 }
 
+/*Card title*/
 div.card-header.product-header{
 	text-align: center;
 	background-color: #d5ee54;
 	color: black;
 }
 
+/*Card title on green*/
+.prodcut-header-green{
+	text-align: center;
+	background-color: #60d2d6;
+	color: white;
+}
+
+ /*Card header title*/
 div.card-header>h5{
 	font-weight: bold;
 	font-size: 24px;
 	margin-right: 60px;
 	margin-top: 15px;
+}
+ /*Card image size*/
+img.card-img-top{
+	width: : 525px;
+	height: 214px;
+}
+
+/*Like button*/
+.likes>button{
+	background-color: transparent;
+	border: none;
+	outline: none;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	color: #7b7b7b;
+}
+
+/*Card title*/
+div.card-body>p{
+	font-size: 18px;
+}
+
+/*Product infromation*/
+div.product-info{
+	display: flex;
+}
+
+/*Purchase controls*/
+form.buy-controls{
+	margin-right: 100px;
+}
+
+/*Purchase controls style*/
+.buy-controls>button{
+	border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+/*Price*/
+p#originalPrice{
+	font-size: 18px;
+	color: #7b7b7b;
+	font-weight: bold;
+}
+
+/*discount price*/
+p#discountPrice{
+	font-size: 30px;
+	color: #60d2d6;
+	font-weight: bold;
+}
+
+/*Shipment*/
+.product-card-footer{
+	color: #7b7b7b;
+}
+/*last banner*/
+div.last-banner{
+	align-items: center;
+	padding: 0px;
+}
+
+/*Last banner Title*/
+div.last-banner p{
+	margin: 0px;
+	text-align: center;
+	font-size: 100px;
+	font-weight: bold;
+	letter-spacing: 20px;
+	color: white;
+}
+
+/*Banner icon*/
+div.last-banner img{
+	height: 150px;
+	width: 150px;
+}
+
+div.payment-methods{
+	margin-top: 10px;
+}
+
+/*Footer payment methods*/
+div.payment-methods>img{
+	height: 50px;
+	width: 50px;
+	margin-right: 80px;
+}
+
+form.news-teller>label{
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+form.news-teller input[type="email"]{
+	padding-left: 5px;
+}
+
+form.news-teller input[type="submit"]{
+	font-weight: bold;
+}
+
+/*Footer titles*/
+.footer-header{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+/*Footer link items*/
+ul.footer-list{
+	margin: 0px;
+	padding: 0px;
+	border-right: 2px solid white;
+}
+
+/*footer link items style*/
+ul.footer-list>li{
+	font-size: 15px;
+	list-style: none;
+	text-align: left;
+	margin-top: 5px;
+}
+
+footer a{
+	text-decoration: none;
+	color: black;
+}
+
+footer a:hover{
+	color: white;
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+.footer-info{
+	border-right: 2px solid white;
 }
