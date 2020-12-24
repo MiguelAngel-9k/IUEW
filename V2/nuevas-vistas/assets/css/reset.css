@@ -324,61 +324,107 @@ div.col-lg-3>img{
 */
 
 /* Product card */
-
-div.col-lg-3#productCard{
-  margin: 30px;
-}
-
-div.product-card{
-  height: auto;
-  display: flex;
+div.row.product-card{
+  margin: none;
+  margin-left: 60px;
+  margin-top: 60px;
   background-color: red;
 }
 
-div.product-card-discount{
-  /*width: 50%;*/
-  height: 65px;
-  background-color: #d5ee54;
+div.col-lg-6.product-discount{
+  margin: none;
+  padding: none;
+  padding-top: 15px;
+  padding-left: 15px;
   text-align: center;
-  padding-top: 8px;
-  padding-left: none;
-  padding-right: 10px;
-}
-
-div.product-card-discount>p{
-  text-align:center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   font-size: 34px;
-  color: #474747;
-}
-div.product-card-end{
-  /*width: 50%;*/
-  height: 65px;
-  background-color: #60d2d6;
-  text-align: center;
-  padding-top: 8px;
+  background-color: #d5ee54;
 }
 
-div.product-card-end>p{
-  text-align:center;
+div.col-lg-6.product-end{
+  margin: none;
+  padding: none;
+  padding-top: 15px;
+  padding-left: 15px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   font-size: 18px;
-  color: #ffffff;
+  color: white;
+  background-color: #60d2d6
+
 }
 
-/*Card image*/
- 
-div.col-lg-2.product-img{
-  margin: 0px;
+div.col-lg-6.product-discount>img{
+  max-height: 100px;
+  max-width: 100px;
 }
 
-div.col-lg-2.product-img>img{
-  background-color: grey;
-  max-height: 30px;
-  max-width: 30px;
-  
+div.card{
+   border: 1px solid #474747;
 }
 
-/*div.product-img>img{
- background-color: yellow;
+div.card-header{
+  display: flex;
+  background: linear-gradient(to left, #60d2d6, #d5ee54);
+  padding-left: 26px;
+}
+
+div.card-body button{
+  font-size: 20px;
+  color: #9D9E9F;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+button>i{
+  margin-right: 10px;
+}
+
+/*div.card-header>span{
+  padding: 0px;
+  text-align: center;
+  display: flex;
 }*/
+
+div.card-header h3#discount{
+  font-size: 34px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding-top: 25px;
+}
+
+div.card-header h3#end{
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+div.card-header img{
+  max-width: 150px;
+  max-height: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+div.card-body>p{
+  margin-top: 15px;
+  font-size: 24px;
+  color: #6e6e6e;
+}
+
+div.form-group>input[type="submit"]{
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 45px;
+  margin-bottom: 10px;
+  border-radius: 38px;
+  outline: none;
+  background-color: red;
+}

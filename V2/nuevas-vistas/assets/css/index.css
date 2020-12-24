@@ -1,0 +1,399 @@
+/*Navbar*/
+nav.navbar {
+    background-color: #60d2d6;
+    opacity: 78%;
+}
+
+/*Search bar*/
+li.nav-item>form input[type="search"] {
+    width: 320px;
+    height: 35px;
+    margin-left: 10px;
+    margin-top: 5px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    padding-left: 20px;
+}
+
+/*Search button*/
+li.nav-item>form button {
+    height: 35px;
+    margin-top: 5px;
+    border: none;
+    background-color: white;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    outline: none;
+    margin-right: 30px;
+}
+
+/*Nav links*/
+a.nav-link {
+    font-size: 18px;
+
+}
+
+
+/*Shop cart*/
+a.nav-link>img {
+    max-height: 30px;
+    max-width: 30px;
+}
+
+/*Categories box*/
+div.categories {
+    border: 2px solid #c2c2c2;
+    text-align: left;
+}
+
+/*Categories title*/
+div.categories-header>h2 {
+    background-color: #c2c2c2;
+    text-align: center;
+}
+
+/*List of categories*/
+div.categories-list li {
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+/*Categoires list items*/
+div.categories-list a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Card header style*/
+div.card-header {
+    display: flex;
+    background-color: #60d2d6;
+    opacity: 78%;
+    text-align: left;
+}
+
+/*card header title*/
+div.card-header>h3 {
+    padding-top: 15px;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*card-header image*/
+div.card-header>img {
+    margin-top: 5px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+/*Card body*/
+div.card-body {
+    padding: 0px;
+}
+
+/*card list content*/
+div.card-body>ul.card-list {
+    padding: none;
+    list-style: none;
+    font-size: 15px;
+}
+
+/*card body list items*/
+div.card-body li {
+    margin-top: 5px;
+}
+
+/*Card divider*/
+div.divider {
+    height: 3px;
+    background-color: #60d2d6;
+}
+
+/*Banner form*/
+form.form-inline.banner-button {
+    padding-left: 6px;
+}
+
+/*Banner button*/
+form.banner-button>input[type="submit"] {
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 30px;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+/*color green class*/
+.button-green {
+    background-color: #d5ee54;
+}
+
+/*color cyan class*/
+.button-cyan {
+    background-color: #60d2d6;
+    opacity: 78%;
+    color: white;
+}
+
+/*First banner*/
+.banner-cyan {
+    background-color: #60d2d6;
+    opacity: 78%;
+    display: flex;   
+}
+ /*banner text*/
+.banner-info>h4{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 34px;
+	color: white;
+}
+
+/*banner text*/
+.banner-info>p{
+	margin-top: 15px;
+	margin-left: 30px;
+	font-size: 24px;
+	padding-right: 15px;
+	color: black;
+}
+
+/*banner information links inside paragraphs*/
+.banner-info p>a{
+	text-decoration: none;
+	color: black;
+}
+
+/*links hover property*/
+.banner-info p>a:hover{
+	color: white;
+}
+
+/*baner hot deals icon*/
+.banner-img>img{
+	margin-right: 15px;
+	margin-left: 10px;
+	width: 200px;
+	height: 200px;
+}
+
+/*Discount banner color*/
+div.card-header.banner-red {
+    background-color: #f27373;
+    padding-left: 30px;
+}
+
+/*Discount banner title*/
+div.card-header.banner-red>h3 {
+    font-size: 34px;
+    margin-top: 15px;
+}
+
+/*discount banner fire icon*/
+div.card-header.banner-red>img {
+    margin-left: 100px;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+/*new stuff banner green color*/
+div.card-header.banner-green {
+    background-color: #d5ee54;
+    padding-left: 30px;
+}
+
+/*new struff banner title*/
+div.card-header.banner-green>h3 {
+    font-size: 34px;
+    margin-top: 15px;
+}
+
+/*new stuff banner new icon*/
+div.card-header.banner-green>img {
+    margin-left: 100px;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+/*discount banner background*/
+div.card-body.banner-discount {
+    background-image: url("https://previews.123rf.com/images/robuart/robuart1512/robuart151200300/49515500-sale-labels-background-end-of-season-sale-discount-tags-percent-text-best-discounts-background-with-.jpg");
+    height: 100px;
+    text-align: center;
+}
+
+/*new stuff banner background*/
+div.card-body.banner-new {
+    background-image: url("https://cdn.pixabay.com/photo/2017/06/15/13/06/retro-2405404_640.jpg");
+    height: 100px;
+    background-position: 50%, 50%;
+    text-align: center;
+}
+
+/*Card title*/
+div.card-header.product-header{
+	text-align: center;
+	background-color: #d5ee54;
+	color: black;
+}
+
+/*Card title on green*/
+.prodcut-header-green{
+	text-align: center;
+	background-color: #60d2d6;
+	color: white;
+}
+
+ /*Card header title*/
+div.card-header>h5{
+	font-weight: bold;
+	font-size: 24px;
+	margin-right: 60px;
+	margin-top: 15px;
+}
+ /*Card image size*/
+img.card-img-top{
+	width: : 525px;
+	height: 214px;
+}
+
+/*Like button*/
+.likes>button{
+	background-color: transparent;
+	border: none;
+	outline: none;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	color: #7b7b7b;
+}
+
+/*Card title*/
+div.card-body>p{
+	font-size: 18px;
+}
+
+/*Product infromation*/
+div.product-info{
+	display: flex;
+}
+
+/*Purchase controls*/
+form.buy-controls{
+	margin-right: 100px;
+}
+
+/*Purchase controls style*/
+.buy-controls>button{
+	border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+/*Price*/
+p#originalPrice{
+	font-size: 18px;
+	color: #7b7b7b;
+	font-weight: bold;
+}
+
+/*discount price*/
+p#discountPrice{
+	font-size: 30px;
+	color: #60d2d6;
+	font-weight: bold;
+}
+
+/*Shipment*/
+.product-card-footer{
+	color: #7b7b7b;
+}
+/*last banner*/
+div.last-banner{
+	align-items: center;
+	padding: 0px;
+}
+
+/*Last banner Title*/
+div.last-banner p{
+	margin: 0px;
+	text-align: center;
+	font-size: 100px;
+	font-weight: bold;
+	letter-spacing: 20px;
+	color: white;
+}
+
+/*Banner icon*/
+div.last-banner img{
+	height: 150px;
+	width: 150px;
+}
+
+div.payment-methods{
+	margin-top: 10px;
+}
+
+/*Footer payment methods*/
+div.payment-methods>img{
+	height: 50px;
+	width: 50px;
+	margin-right: 80px;
+}
+
+form.news-teller>label{
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+form.news-teller input[type="email"]{
+	padding-left: 5px;
+}
+
+form.news-teller input[type="submit"]{
+	font-weight: bold;
+}
+
+/*Footer titles*/
+.footer-header{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+/*Footer link items*/
+ul.footer-list{
+	margin: 0px;
+	padding: 0px;
+	border-right: 2px solid white;
+}
+
+/*footer link items style*/
+ul.footer-list>li{
+	font-size: 15px;
+	list-style: none;
+	text-align: left;
+	margin-top: 5px;
+}
+
+footer a{
+	text-decoration: none;
+	color: black;
+}
+
+footer a:hover{
+	color: white;
+	text-decoration: underline;
+	font-size: 18px;
+}
+
+.footer-info{
+	border-right: 2px solid white;
+}
