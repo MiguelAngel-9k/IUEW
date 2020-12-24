@@ -1,0 +1,235 @@
+
+/*Navbar*/
+nav.navbar {
+    background-color: #60d2d6;
+    opacity: 78%;
+    padding-left: 100px;
+}
+
+/*Search bar*/
+li.nav-item>form input[type="search"] {
+    width: 900px;
+    height: 35px;
+    margin-left: 60px;
+    margin-top: 20px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    padding-left: 20px;
+}
+
+/*Search button*/
+li.nav-item>form button {
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: white;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    outline: none;
+    margin-right: 30px;
+}
+
+/*Nav links*/
+a.nav-link {
+	margin-top: 15px;
+	margin-right: 5px;
+    font-size: 18px;
+
+}
+
+
+/*Shop cart*/
+a.nav-link>img {
+    max-height: 30px;
+    max-width: 30px;
+}
+
+a.nav-link{
+	color: black;
+}
+
+@media only screen and (max-width: 1679px){
+	li.nav-item>form input[type="search"]{
+		width: 600px;
+	}
+}
+
+@media only screen and (max-width: 1580px){
+	li.nav-item>form input[type="search"]{
+		width: 450px;
+	}
+}
+
+@media only screen and (max-width: 1440px){
+	li.nav-item>form input[type="search"]{
+		width: 350px;
+	}
+}
+
+@media only screen and (max-width: 1330px){
+	li.nav-item>form input[type="search"]{
+		width: 250px;
+	}
+
+	nav.navbar{
+		padding-left: 40px;
+	}
+}
+
+@media only screen and (max-width: 1170px){
+	li.nav-item>form input[type="search"]{
+		width: 150px;
+	}
+
+	nav.navbar{
+		padding-left: 10px;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	li.nav-item>form input[type="search"]{
+		width: 700px;
+	}
+}
+
+/*Categories box*/
+div.categories {
+    border: 2px solid #c2c2c2;
+    text-align: left;
+}
+
+/*Categories title*/
+div.categories-header>h2 {
+    background-color: #c2c2c2;
+    text-align: center;
+}
+
+/*List of categories*/
+div.categories-list li {
+    list-style: none;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+/*Categoires list items*/
+div.categories-list a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Card header style*/
+div.card-header {
+    display: flex;
+    background-color: #60d2d6;
+    opacity: 78%;
+    text-align: left;
+}
+
+/*card header title*/
+div.card-header>h3 {
+    padding-top: 15px;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/*card-header image*/
+div.card-header>img {
+    margin-top: 5px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+/*Card body*/
+div.card-body {
+    padding: 0px;
+}
+
+/*card list content*/
+div.card-body>ul.card-list {
+    padding: none;
+    list-style: none;
+    font-size: 15px;
+}
+
+/*card body list items*/
+div.card-body li {
+    margin-top: 5px;
+}
+
+/*Card divider*/
+div.divider {
+    height: 3px;
+    background-color: #60d2d6;
+}
+
+/*Banner form*/
+form.form-inline.banner-button {
+    padding-left: 6px;
+}
+
+/*Banner button*/
+form.banner-button>input[type="submit"] {
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 30px;
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+/*color green class*/
+.button-green {
+    background-color: #d5ee54;
+}
+
+/*color cyan class*/
+.button-cyan {
+    background-color: #60d2d6;
+    opacity: 78%;
+    color: white;
+}
+
+/*First banner*/
+.banner-cyan {
+    background-color: #60d2d6;
+    opacity: 78%;
+    display: flex;   
+}
+ /*banner text*/
+.banner-info>h4{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 34px;
+	color: white;
+}
+
+/*banner text*/
+.banner-info>p{
+	margin-top: 15px;
+	margin-left: 30px;
+	font-size: 24px;
+	padding-right: 15px;
+	color: black;
+}
+
+/*banner information links inside paragraphs*/
+.banner-info p>a{
+	text-decoration: none;
+	color: black;
+}
+
+/*links hover property*/
+.banner-info p>a:hover{
+	color: white;
+}
+
+/*baner hot deals icon*/
+.banner-img>img{
+	margin-right: 15px;
+	margin-left: 10px;
+	width: 200px;
+	height: 200px;
+}
