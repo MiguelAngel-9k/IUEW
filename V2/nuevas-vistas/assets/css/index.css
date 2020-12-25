@@ -2,13 +2,14 @@
 nav.navbar {
     background-color: #60d2d6;
     opacity: 78%;
+    padding-left: 100px;
 }
 
 /*Search bar*/
 li.nav-item>form input[type="search"] {
-    width: 320px;
+    width: 900px;
     height: 35px;
-    margin-left: 10px;
+    margin-left: 60px;
     margin-top: 5px;
     -webkit-border-top-left-radius: 10px;
     -webkit-border-bottom-left-radius: 10px;
@@ -39,6 +40,52 @@ a.nav-link>img {
     max-height: 30px;
     max-width: 30px;
 }
+
+/**Media querys for navbar*/
+@media only screen and (max-width: 1679px){
+    li.nav-item>form input[type="search"]{
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 1580px){
+    li.nav-item>form input[type="search"]{
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    li.nav-item>form input[type="search"]{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 1330px){
+    li.nav-item>form input[type="search"]{
+        width: 250px;
+    }
+
+    nav.navbar{
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 1170px){
+    li.nav-item>form input[type="search"]{
+        width: 150px;
+    }
+
+    nav.navbar{
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    li.nav-item>form input[type="search"]{
+        width: 700px;
+    }
+}
+
 
 /*Categories box*/
 div.categories {
@@ -256,11 +303,11 @@ div.card-header>h5{
 	margin-right: 60px;
 	margin-top: 15px;
 }
- /*Card image size*/
+ /*Card image size
 img.card-img-top{
-	width: : 525px;
-	height: 214px;
-}
+	max-width: : 525px;
+	max-height: 214px;
+}*/
 
 /*Like button*/
 .likes>button{
@@ -284,7 +331,7 @@ div.product-info{
 
 /*Purchase controls*/
 form.buy-controls{
-	margin-right: 100px;
+	margin-right: 20%;
 }
 
 /*Purchase controls style*/
