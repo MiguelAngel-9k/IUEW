@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CDN Boostrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <!--Iconos-->
+    <script src="https://kit.fontawesome.com/d11ab77a4f.js" crossorigin="anonymous"></script>
+    <!--styles-->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/product.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <!--Altatec Logo-->
+        <a class="navbar-brand" href="index.html">
+            <img src="../img/referencias/monterrey-altatec-logo.jpg" alt="Logo altatec">
+        </a>
+        <!--Burger button-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Navbar items-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <form action="" class="form-inline">
+                        <input type="search" placeholder="¿Buscar algo en especial?">
+                        <button>
+                            <i id="magnifying-glass" class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="firstDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Computadoras Armadas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="firstDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="secondDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tienda
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="secondDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">
+                        Iniciar Sesión
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        <p>$0.00</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        <img src="../img/iconos/carrito-de-compras.png" alt="Carrito">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Product-->
+    <div class="container-expand-lg px-lg-5">
+        <div class="row">
+            <div class="col p-lg-5">
+                <img src="../img/referencias/ryzen3400g.jpg" alt="Procesador" class="product-img">
+                <div class="media pt-lg-4">
+                    <div class="media-body">
+                        <h5>Descripción</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-lg-5">
+                <h1 class="product-name">
+                    Memoria RAM XPG SPECTRIX D50 RGB Tungsten Grey DDR4, 3600MHz, 8GB, Non-ECC, CL18, XMP
+                </h1>
+                <form action="" class="form-inline likes">
+                    <button>
+                        <i class="far fa-heart"></i>
+                        2,566 Me gusta
+                    </button>
+                </form>
+                <div class="row">
+                    <div class="col">
+                        <div class="product-discount">
+                            <p id="discount">-7.28</p>
+                            <p>¡$80.00 menos!</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <strike>
+                            <p id="originalPrice">$1,000.00</p>
+                        </strike>
+                        <p id="discountPrice">$1,019.00</p>
+                        <small class="small-info">incluye iva</small><br>
+                        <small class="small-info" s>Consto de envio $99.00</small>
+                        <form action="" class="form-group product-button buy-controls">
+                            <button class="button-cyan">
+                                Añadir <i class="fas fa-cart-plus"></i>
+                            </button><br>
+                            <button class="button-green">
+                                Comprar
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Comentaries-->
+        <div class="row">
+            <div class="col">
+                <div class="comments">
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">Nombre usuario</h5>
+                                <p>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">Nombre usuario</h5>
+                                <p>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <table class="table table-striped">
+                    <tbody>
+                        <h2>Peso y dimesiones</h2>
+                        <tr>
+                            <th scope="row">Altura</th>
+                            <th scope="row">40mm</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">Profundidad</th>
+                            <th scope="row">8mm</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">Ancho</th>
+                            <th scope="row">133.3mm</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!--Footer page-->
+    <footer class="banner-cyan mt-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="payment-methods">
+                        <img src="../img/referencias/paypal.png" alt="">
+                        <img src="../img/referencias/tarjeta-mastercard.png " alt="">
+                        <img src="../img/referencias/visa.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <form action="" class="float-left mt-lg-3 news-teller">
+                        <label for="email">Suscribete a las noticias</label><br>
+                        <input name="email" placeholder="ejemplo@ejemplo.com" type="email">
+                        <input type="submit" class="banner-green" value="Suscribirse">
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-lg-3">
+                <div class="col-lg-3">
+                    <p class="footer-header">Productos <i class="fas fa-box"></i></p>
+                    <ul class="footer-list">
+                        <li>
+                            Hardware
+                        </li>
+                        <li>
+                            Computadoras Armadas
+                        </li>
+                        <li>
+                            Audio y Video
+                        </li>
+                        <li>
+                            Teclados y Ratones
+                        </li>
+                        <li>
+                            Cables
+                        </li>
+                        <li>
+                            Redes
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <p class="footer-header">Acerca de nosotros <i class="fas fa-id-card"></i></p>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="">Envío</a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Aviso legal
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Sobre nosotros
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Términos y condiciones
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Pago seguro
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Contacte con nosotros
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <p class="footer-header">Cuenta <i class="fas fa-user-alt"></i></p>
+                    <div class="footer-info">
+                        <a href="">Iniciar sesíon</a> <br>
+                        <a href="">Registrarse</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <p class="footer-header">Contacto <i class="fas fa-envelope"></i></p>
+                    <p>Monterrey Altatec
+                        México
+                        Envíenos un correo electrónico: ventas@altatecmonterrey.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

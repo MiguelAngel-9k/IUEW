@@ -2,13 +2,15 @@
 nav.navbar {
     background-color: #60d2d6;
     opacity: 78%;
+    padding-left: 100px;
+    position: static;
 }
 
 /*Search bar*/
 li.nav-item>form input[type="search"] {
-    width: 320px;
+    width: 800px;
     height: 35px;
-    margin-left: 10px;
+    margin-left: 60px;
     margin-top: 5px;
     -webkit-border-top-left-radius: 10px;
     -webkit-border-bottom-left-radius: 10px;
@@ -38,6 +40,51 @@ a.nav-link {
 a.nav-link>img {
     max-height: 30px;
     max-width: 30px;
+}
+
+/**Media querys for navbar*/
+@media only screen and (max-width: 1679px){
+    li.nav-item>form input[type="search"]{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 1540px){
+    li.nav-item>form input[type="search"]{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    li.nav-item>form input[type="search"]{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+    li.nav-item>form input[type="search"]{
+        width: 150px;
+    }
+
+    nav.navbar{
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 1160px){
+    li.nav-item>form input[type="search"]{
+        width: 100px;
+    }
+
+    nav.navbar{
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    li.nav-item>form input[type="search"]{
+        width: 700px;
+    }
 }
 
 /*Categories box*/
