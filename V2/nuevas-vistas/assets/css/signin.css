@@ -1,0 +1,56 @@
+
+div.signin{
+	border-right: 5px solid #60d2d6;
+}
+
+div.signin>h1{
+	font-size: 54px;
+	letter-spacing: 2px;
+	margin-bottom: 50px;
+}
+
+div.signin>form label{
+	font-size: 24px;
+	text-align: left;
+	margin-right: 20px;
+}
+
+div.signin>form input{
+	margin: 0px;
+	width: 400px;
+	height: 60px;
+	padding: 20px;
+	font-size: 18px;
+}
+
+div.signin>form input[type="submit"]{
+	margin-top: 50px;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	background-color: #60d2d6;
+}
+
+div.login>h1{
+	font-size: 54px;
+	letter-spacing: 2px;
+	margin-bottom: 50px;
+}
+
+div.login>form input{
+	width: 400px;
+	height: 50px;
+	padding: 15px;	
+}
+
+div.login>form input[type="submit"]{
+	margin-top: 20px;
+	padding: 0px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	background-color: #60d2d6;
+	font-size: 18px;
+	height: 60px;
+}
+
